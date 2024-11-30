@@ -1,6 +1,4 @@
-import 'dart:io';
 import 'package:flutter/cupertino.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:whatsapp/screens/callsScreen.dart';
 import 'package:whatsapp/screens/chatsScreen.dart';
@@ -53,23 +51,23 @@ class _MyHomePageState extends State<MyHomePage> {
         selectedIndex: currentPageIndex,
         destinations: <Widget>[
           NavigationDestination(
-            selectedIcon: Icon(CupertinoIcons.chat_bubble_text_fill, color: Theme.of(context).colorScheme.secondary,),
-            icon: Icon(CupertinoIcons.chat_bubble_text_fill, color: Theme.of(context).colorScheme.primary,),
+            selectedIcon: Icon(Icons.chat, color: Theme.of(context).colorScheme.secondary,),
+            icon: Icon(Icons.chat, color: Theme.of(context).colorScheme.tertiary,),
             label: 'Chats',
           ),
           NavigationDestination(
             selectedIcon: Icon(CupertinoIcons.upload_circle_fill, color: Theme.of(context).colorScheme.secondary,),
-            icon: Icon(CupertinoIcons.upload_circle_fill, color: Theme.of(context).colorScheme.primary,),
+            icon: Icon(CupertinoIcons.upload_circle_fill, color: Theme.of(context).colorScheme.tertiary,),
             label: 'Updates',
           ),
           NavigationDestination(
             selectedIcon: Icon(CupertinoIcons.group_solid, color: Theme.of(context).colorScheme.secondary,),
-            icon: Icon(CupertinoIcons.group_solid, color: Theme.of(context).colorScheme.primary,),
+            icon: Icon(CupertinoIcons.group_solid, color: Theme.of(context).colorScheme.tertiary,),
             label: 'Communities',
           ),
           NavigationDestination(
             selectedIcon: Icon(CupertinoIcons.phone_fill, color: Theme.of(context).colorScheme.secondary,),
-            icon: Icon(CupertinoIcons.phone_fill, color: Theme.of(context).colorScheme.primary,),
+            icon: Icon(CupertinoIcons.phone_fill, color: Theme.of(context).colorScheme.tertiary,),
             label: 'Calls',
           ),
         ],

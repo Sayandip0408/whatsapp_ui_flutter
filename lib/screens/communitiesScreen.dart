@@ -23,9 +23,7 @@ class _CommunitiesScreenState extends State<CommunitiesScreen> {
         actions: [
           IconButton(
             onPressed: () {},
-            icon: Platform.isAndroid
-                ? const Icon(Icons.camera_alt_outlined)
-                : const Icon(Icons.camera_alt_rounded),
+            icon: const Icon(Icons.qr_code_scanner_rounded),
           ),
           IconButton(
             onPressed: () {},

@@ -8,6 +8,8 @@ ThemeData darkTheme = ThemeData(
     primary: Colors.white,
     secondary: Color(0XFFDAFDD4),
     secondaryContainer: Color(0XFF176140),
+    tertiary: Color(0XFFffffff),
+    tertiaryContainer: Color(0XFF2d3436),
   ),
   appBarTheme: const AppBarTheme(
     iconTheme: IconThemeData(
@@ -19,5 +21,6 @@ ThemeData darkTheme = ThemeData(
     ),
     centerTitle: false,
     backgroundColor: Color(0XFF0B1015),
+    scrolledUnderElevation: 0,
   ),
 );

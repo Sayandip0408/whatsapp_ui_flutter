@@ -8,6 +8,8 @@ ThemeData lightTheme = ThemeData(
     primary: Color(0XFF1e272e),
     secondary: Color(0XFF176140),
     secondaryContainer: Color(0XFFDAFDD4),
+    tertiary: Color(0XFF2d3436),
+    tertiaryContainer: Color(0XFFF6F5F3),
   ),
   appBarTheme: const AppBarTheme(
     iconTheme: IconThemeData(
@@ -20,5 +22,6 @@ ThemeData lightTheme = ThemeData(
     ),
     centerTitle: false,
     backgroundColor: Colors.white,
+    scrolledUnderElevation: 0,
   ),
 );

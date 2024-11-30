@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -23,9 +24,11 @@ class _UpdatesScreenState extends State<UpdatesScreen> {
         actions: [
           IconButton(
             onPressed: () {},
-            icon: Platform.isAndroid
-                ? const Icon(Icons.camera_alt_outlined)
-                : const Icon(Icons.camera_alt_rounded),
+            icon: const Icon(Icons.qr_code_scanner_rounded),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(CupertinoIcons.search),
           ),
           IconButton(
             onPressed: () {},
